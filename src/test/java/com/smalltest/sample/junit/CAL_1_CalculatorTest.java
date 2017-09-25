@@ -24,7 +24,7 @@ public class CAL_1_CalculatorTest {
     }
 
     @Test
-    public void CAL_2_testSubstraction() {
+    public void CAL_3_testSubtraction() {
         int result = calculator.subtraction(10, 2);
         assertThat("Difference is correct", result, equalTo(8));
     }
